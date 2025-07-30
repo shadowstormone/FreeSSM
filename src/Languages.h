@@ -29,6 +29,7 @@
 static const QVector<QLocale> __supportedLocales = QVector<QLocale>()
 	<< QLocale::English
 	<< QLocale::German
+ << QLocale::Russian
 	<< QLocale::Turkish;
 	/* ===> ADD NEW LOCALES HERE <=== */
 
@@ -36,6 +37,7 @@ static const QVector<QLocale> __supportedLocales = QVector<QLocale>()
 #if 0
 QT_TRANSLATE_NOOP("Language", "English")
 QT_TRANSLATE_NOOP("Language", "German")
+QT_TRANSLATE_NOOP("Language", " Russian")
 QT_TRANSLATE_NOOP("Language", "Turkish")
 /* ===> ADD NEW LANGUAGE NAMES HERE <=== */
 #endif
